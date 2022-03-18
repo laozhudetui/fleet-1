@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.15
 MAINTAINER Fleet Developers <engineering@fleetdm.com>
 
 RUN apk --update add ca-certificates
